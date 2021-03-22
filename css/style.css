@@ -1,0 +1,144 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+
+.container {
+   padding: 0 100px;
+   margin: 0 auto;
+}
+
+.row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+a {text-decoration: none;}
+
+.top-nav {
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo:active {
+   opacity: 0.6;
+}
+
+.top-nav__items {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0;
+}
+
+.top-nav__list {
+   position: relative;
+   display: inline-block;
+}
+
+.top-nav__link {
+   font-size: 15px;
+   color: black;
+   padding: 16px; 
+   position: relative;
+}
+
+.top-nav__link:active {
+   background-color: rgba(25, 25, 25, 0.7);
+   color: #fff;
+}
+
+.active, .top-nav__link:hover {
+   border-bottom: 3px solid black;
+}
+
+.btn-tel {
+   padding: 8px 16px;
+   margin: 8px 0;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 24px;
+
+   color: white;
+   background: #00BAFC;
+   border-radius: 5px;
+}
+
+.btn-tel:hover {
+   background-color: transparent;
+   color: #00BAFC;
+ 
+   box-shadow: inset 0 0 0 3px  #00BAFC;
+}
+
+.btn-tel:active {
+   background: rgba(0, 186, 252, 0.6); 
+   color: #fff;
+   box-shadow: none;
+}
+
+.list-child {
+   display: none;
+   position: absolute;
+   top: 35px;
+   background-color: #ffffff;
+   min-width: 140px;
+   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+   z-index: 1;
+   list-style: none;
+   padding: 0;
+   font-size: 15px;
+   line-height: 24px;
+}
+
+.list-child__link {
+   padding: 16px;
+   color: black;
+   display: block;
+}
+
+.list-child__link:hover {
+   color: white;
+   background-color: #00BAFC;
+}
+
+.list-child__link:active {
+   background-color: rgba(0, 186, 252, 0.6);
+}
+
+.top-nav__list:hover .list-child {
+   display: block;
+}
+
+.next-level {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 80px 0;
+}
+
+.next-level__left {
+   padding-right: 172px;
+}
+
+.next-level__title {
+   margin: 0;
+   margin-top: 24px;
+}
+
+.btn {
+   padding: 8px 16px;
+
+   background-color: #00BAFC;
+   border-radius: 5px;
+   color: #fff;
+}
+
+.btn:hover {
+   background-color: rgba(0, 186, 252, 0.8);
+}
+
+.btn:active {
+   background-color: rgba(0, 186, 252, 0.6);
+}
+
