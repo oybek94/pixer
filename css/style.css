@@ -6,6 +6,7 @@ body {
 .container {
    padding: 0 100px;
    margin: 0 auto;
+   max-width: 1300px;
 }
 
 .row {
@@ -15,6 +16,10 @@ body {
 }
 
 a {text-decoration: none;}
+
+.ta-c {
+   text-align: center;
+}
 
 .top-nav {
    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
@@ -126,8 +131,13 @@ a {text-decoration: none;}
    margin-top: 24px;
 }
 
+.next-level__text {
+   margin-bottom: 24px;
+}
+
 .btn {
    padding: 8px 16px;
+   margin-right: 16px;
 
    background-color: #00BAFC;
    border-radius: 5px;
@@ -142,3 +152,97 @@ a {text-decoration: none;}
    background-color: rgba(0, 186, 252, 0.6);
 }
 
+/* ***************SERVICES************** */
+
+.services {
+   padding: 56px 0;
+}
+
+.services-title {
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 130%;
+}
+
+.services-text {
+   width: 720px;
+   margin: 0 auto;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 24px;
+}
+
+.services-cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 8px 0 40px;
+
+}
+
+.services-card {
+   position: relative;
+   top: 24px;
+   padding-top: 170px;
+   margin-right: 70px;
+   margin-bottom: 48px;
+
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-repeat: no-repeat;
+   background-position: center 24px;
+   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services-card:nth-child(3n) {
+   margin-right: 0;
+}
+
+.services-card:hover {
+   box-shadow: 0px 12px 21px 0px rgba(0, 0, 0, 0.1);
+}
+
+.services-card:active {
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.services-card__title {
+   margin: 0;
+   margin-bottom: 16px;
+   padding: 0 87px;
+}
+
+.services-card__text {
+   padding-bottom: 24px;
+   margin: 0;
+}
+
+.web {
+   background-image: url("/images/website-illustration.png");
+}
+
+.telegram {
+   background-image: url("/images/bot-illustration.png");
+}
+
+.smm {
+   background-image: url("/images/smm-illustration.png");
+}
+
+.design {
+   background-image: url("/images/design-illustration.png");
+}
+
+.crm {
+   background-image: url("/images/crm-illustration.png");
+}
+
+.services-links {
+   margin-bottom: 16px;
+}
+
+.btn-underline {
+   color: rgba(0, 186, 252, 1);
+   text-decoration: underline;
+}
