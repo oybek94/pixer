@@ -71,6 +71,7 @@ a {text-decoration: none;}
    color: white;
    background: #00BAFC;
    border-radius: 5px;
+   transition: ease 0.4s;
 }
 
 .btn-tel:hover {
@@ -149,6 +150,7 @@ a {text-decoration: none;}
    font-weight: bold;
    font-size: 16px;
    line-height: 24px;
+   transition: ease 0.4s;
 }
 
 .btn:hover {
@@ -216,6 +218,7 @@ a {text-decoration: none;}
    background-repeat: no-repeat;
    background-position: center 24px;
    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+   transition: ease 0.4s;
 }
 
 .services-card:nth-child(3n) {
@@ -400,6 +403,7 @@ input {
    font-size: 16px;
    line-height: 24px;
    background-repeat: no-repeat;
+   transition: ease 0.4s;
 }
 
 .footer__link:hover {
