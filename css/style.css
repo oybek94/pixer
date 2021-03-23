@@ -21,6 +21,10 @@ a {text-decoration: none;}
    text-align: center;
 }
 
+.c-w {
+   color: white;
+}
+
 .top-nav {
    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
@@ -158,13 +162,13 @@ a {text-decoration: none;}
    padding: 56px 0;
 }
 
-.services-title {
+.section-title {
    font-weight: bold;
    font-size: 24px;
    line-height: 130%;
 }
 
-.services-text {
+.section-text {
    width: 720px;
    margin: 0 auto;
    font-size: 16px;
@@ -186,7 +190,7 @@ a {text-decoration: none;}
    padding-top: 170px;
    margin-right: 70px;
    margin-bottom: 48px;
-
+   width: 320px;
    border-radius: 5px;
    background-color: #FFFFFF;
    background-repeat: no-repeat;
@@ -245,4 +249,48 @@ a {text-decoration: none;}
 .btn-underline {
    color: rgba(0, 186, 252, 1);
    text-decoration: underline;
+}
+
+.about .section-title {
+   margin-top: 56px;
+   margin-bottom: 16px;
+}
+
+/* *************** ABOUT ****************/
+
+.road {
+   display: flex;
+   align-items: center;
+   margin: 0 auto 32px;
+   width: 832px;
+
+}
+
+.road-image {
+   margin-right: 32px;
+}
+
+.road-info__title {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+}
+
+.road-info__text {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.order-1 {
+   order: 2;
+   margin-left: 32px;
+}
+
+.center {
+   display: flex;
+   justify-content: center;
+   width: 167px;
+   margin: 0 auto;
+   margin-bottom: 56px;
 }
