@@ -146,6 +146,9 @@ a {text-decoration: none;}
    background-color: #00BAFC;
    border-radius: 5px;
    color: #fff;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
 }
 
 .btn:hover {
@@ -294,3 +297,123 @@ a {text-decoration: none;}
    margin: 0 auto;
    margin-bottom: 56px;
 }
+
+/* *******************ORDER********************** */
+
+.order {
+   background-color: #00BAFC;
+   padding-top: 56px;
+   padding-bottom: 64px;
+}
+
+.to-order {
+   width: 348px;
+   padding: 24px;
+   border-radius: 5px;
+   background-color: white;
+   margin: 0 auto;
+}
+
+.to-order__form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 304px;
+   justify-content: space-around;
+}
+
+input {
+   padding: 16px;
+   width: 300px;
+   margin-bottom: 16px;
+   background-color: #F3F3F3;
+   border-radius: 5px;
+   border: none;
+}
+
+.selector {
+   padding: 16px;
+   width: 336px;
+   margin-bottom: 16px;
+   height: 56px;
+   background-color: #F3F3F3;
+   border-radius: 5px;
+   border: none;
+}
+
+::placeholder {
+   color: black;
+   font-size: 16px;
+   line-height: 150%;
+}
+
+/* ***************FOOTER************** */
+
+.footer {
+   background-color: #000;
+}
+
+.footer-row {
+   display: grid;
+   grid-template-columns:420px 230px 230px;
+}
+
+.copyright {
+   padding-right: 100px;
+}
+
+.footer-title {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+}
+
+.footer__items {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-list {
+   margin: 5px 0;
+}
+
+.footer__link {
+   color: #fff;
+   font-size: 16px;
+   line-height: 24px;
+   background-repeat: no-repeat;
+}
+
+.footer__link:hover {
+   color: #00BAFC;
+}
+
+.footer__link:active {
+   color: rgba(0, 186, 252, 0.6);
+}
+
+.tg {
+   background-image: url("/images/telegram.svg");
+   padding-left: 30px;
+   width: 22px;
+   height: 24px;
+}
+
+.facebook {
+   background-image: url("/images/facebook.png");
+   padding-left: 30px;
+   width: 22px;
+   height: 24px;
+}
+
+.instagram {
+   background-image: url("/images/instagram.png");
+   padding-left: 30px;
+   width: 22px;
+   height: 24px;
+}
+
+.tg:active, .facebook:active, .instagram:active {
+   opacity: 0.6;
+}
+
