@@ -159,6 +159,22 @@ a {text-decoration: none;}
    background-color: rgba(0, 186, 252, 0.6);
 }
 
+.next-level__right {
+   position: relative;
+   
+}
+
+.next-level__right::before {
+   content: "";
+   position: absolute;
+   width: 150px;
+   height: 105px;
+   top: 30%;
+   left: 35%;
+   background-image: url("/images/youtube-play-button.png");
+   cursor: pointer;
+}
+
 /* ***************SERVICES************** */
 
 .services {
