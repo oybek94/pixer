@@ -198,11 +198,17 @@ a {text-decoration: none;}
 }
 
 .services-cards {
+   padding: 8px 0 40px;
+}
+
+.services-cards__one {
+   display: flex;
+   justify-content: space-between;
+}
+
+.services-cards__two {
    display: flex;
    justify-content: center;
-   flex-wrap: wrap;
-   padding: 8px 0 40px;
-
 }
 
 .services-card {
