@@ -439,3 +439,95 @@ input {
    opacity: 0.6;
 }
 
+
+/* HEADER INFO CONTENT */
+
+.info-content {
+   padding: 72px 0;
+}
+
+.info-content__title {
+   margin-bottom: 16px;
+   margin-top: 0;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 130%;
+}
+
+.info-content__text {
+   margin: 0 auto;
+   width: 800px;
+   font-size: 16px;
+   line-height: 24px; 
+}
+
+/* **************CARDS************* */
+
+main {
+   background-color: #f4f4f4;
+   padding: 80px 0;
+}
+.card {
+   display: grid;
+   grid-template-columns: 240px 184px 130px 200px;
+   grid-template-areas: "image title . ."
+                        "image description description description"
+                        "image list . ."
+                        "image order info .";
+   width: 804px;
+   margin: 0 auto 64px;
+   padding: 32px;
+
+   background-color: #fff;
+   box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+   border-radius: 5px;
+}
+
+.card:last-child {
+   margin-bottom: 0;
+}
+
+.card-image {
+   grid-area: image;
+}
+
+.cart-title {
+   grid-area: title;
+   margin: 0;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 130%;
+}
+
+.card-text {
+   grid-area: description;
+
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.card-items {
+   grid-area: list;
+   margin-top: 0;  
+   padding-left: 25px;
+}
+
+.card-list {
+   margin-bottom: 8px;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.card-list::marker {
+   font-size: 24px;
+   color: #00BAFC;
+}
+
+.btn {
+   grid-area: order;
+}
+
+.btn-underline {
+   grid-area: info;
+   align-self: center;
+}
